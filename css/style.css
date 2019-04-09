@@ -1,0 +1,66 @@
+html, body{
+    height:100%;
+}
+
+hr{
+    border: 1px solid black !important;
+    margin: 0 !important;
+    width: 100%;
+}
+
+a.btn-gradient,a.btn-gradient:hover{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.draggable{
+    border: 1px solid black !important;
+    width: fit-content !important;
+    max-width: 25%;
+    min-width: 25%;
+    cursor: grab;
+    display:inline;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color: white;
+}
+
+.draggable:active{
+    cursor: grabbing;
+}
+
+.title:hover {
+    cursor: text;
+}
+
+.input{
+    width: 100%;
+    text-align: center;
+    border: none;
+    font-size: inherit;
+}
+
+.item{
+    float: left;
+    width: 100%;
+}
+
+.remove{
+    float:right;
+    display: none !important;
+}
+
+.text{
+    text-align: left;
+    float: left;
+}
+
+.item:hover .remove{
+    float:right;
+    display:inline-block !important;
+    margin: 0px !important;
+    padding: 5px !important;
+    line-height: 5px !important;
+    cursor: pointer;
+}
